@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightblue;
+    min-height: 100vh;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+.container {
+    padding: 2rem;
+    border-radius: 2rem;
+    background-color: lightslategray;
+}
+
+form select,
+input,
+button {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.50rem;
+    border: 2px solid lightskyblue;
+}
+
+input {
+    padding: 3px 0;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form > .select-container, 
+form > h4,
+.amount > h3 {
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.res {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.getRes {
+    padding: 1rem 0;
+    border-radius: 1rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
